@@ -1,14 +1,16 @@
-import { UserButton } from "@clerk/nextjs";
+import Addcourse from "./_components/Addcourse";
 
 export default function Dashboard() {
     return (
-        <div className="p-8">
-            <div className="flex justify-between items-center mb-8">
-                <h1 className="text-2xl font-bold">Dashboard</h1>
-                <UserButton afterSignOutUrl="/" />
-            </div>
-            <div>
-                Welcome to your dashboard!
+        <div>
+            <Addcourse />
+            
+            {/* Future course list can go here */}
+            <div className="mt-8">
+                <h3 className="text-xl font-semibold mb-4">Your Courses</h3>
+                <div className="text-gray-500 bg-white p-8 rounded-lg shadow-sm border border-gray-100 text-center">
+                    You haven't created any courses yet.
+                </div>
             </div>
         </div>
     );
