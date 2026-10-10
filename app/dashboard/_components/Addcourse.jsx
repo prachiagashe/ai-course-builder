@@ -8,7 +8,7 @@ export default function Addcourse() {
         <p className="text-gray-500">Create a new course or manage your existing learning paths.</p>
       </div>
       <Link href="/create-course">
-        <button className="bg-blue-600 text-white font-medium px-6 py-3 rounded-md hover:bg-blue-700 transition-colors shadow-sm">
+        <button className="bg-purple-600 text-white font-medium px-6 py-3 rounded-md hover:bg-purple-700 transition-colors shadow-sm">
           + Create Course
         </button>
       </Link>

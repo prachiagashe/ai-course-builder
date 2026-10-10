@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Hero() {
   return (
     <section className="flex flex-col items-center justify-center py-24 px-4 text-center">
@@ -11,9 +13,11 @@ export default function Hero() {
         Unlock personalized education with AI-driven course creation. Tailor your learning
         journey to fit your unique goals and pace
       </p>
-      <button className="bg-blue-100 text-blue-800 border border-blue-600 font-semibold px-8 py-3 rounded shadow-sm hover:bg-blue-200 transition-colors uppercase tracking-wide">
-        Get Started
-      </button>
+      <Link href="/dashboard">
+        <button className="bg-blue-100 text-blue-800 border border-blue-600 font-semibold px-8 py-3 rounded shadow-sm hover:bg-blue-200 transition-colors uppercase tracking-wide">
+          Get Started
+        </button>
+      </Link>
     </section>
   );
 }

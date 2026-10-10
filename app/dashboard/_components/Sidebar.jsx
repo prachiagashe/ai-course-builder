@@ -11,7 +11,7 @@ export default function Sidebar() {
 
   return (
     <div className="h-full p-5 shadow-sm border-r flex flex-col bg-white">
-      <div className="flex items-center gap-2 font-bold text-2xl text-blue-900 mb-10">
+      <div className="flex items-center gap-2 font-bold text-2xl text-purple-900 mb-10">
         <Image src="/logo.png" alt="Logo" width={40} height={40} className="rounded-md" />
         <span>AlphaWave</span>
       </div>

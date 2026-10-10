@@ -8,7 +8,7 @@ export default function CreateCourseLayout({ children }) {
       {/* Header specific to the create course page */}
       <div className="p-5 shadow-sm border-b flex justify-between items-center bg-white">
         <Link href="/dashboard">
-          <div className="flex items-center gap-2 font-bold text-xl text-blue-900 cursor-pointer">
+          <div className="flex items-center gap-2 font-bold text-xl text-purple-900 cursor-pointer">
             <Image src="/logo.png" alt="Logo" width={30} height={30} className="rounded-md" />
             <span>AlphaWave</span>
           </div>
